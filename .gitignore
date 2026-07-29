@@ -1,0 +1,5 @@
+# Raw visibility data stays on Google Drive, not in git.
+*.ms/
+*.ms.listobs
+*.zip
+.ipynb_checkpoints/
