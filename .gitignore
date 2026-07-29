@@ -3,6 +3,22 @@
 *.ms.listobs
 *.zip
 
+# CASA/tclean products and logs from running the notebook locally (Colab
+# produces these under /content, but running it here leaves them in-place).
+cont.*
+cube.*
+*.image/
+*.pb/
+*.psf/
+*.model/
+*.sumwt/
+*.weight/
+*.residual/
+*.mask/
+casa-*.log
+listobs.txt
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
